@@ -762,9 +762,9 @@ footer {
         font-size: 2rem;
         color: var(--text-primary);
     }
-/* ADD THIS NEW RULE */
-.nav-links .theme-toggle-li {
-}
+    .nav-links .theme-toggle-li {
+        margin-top: 2.5rem; 
+    }
     .hero {
         padding: 80px 1rem 0;
         min-height: 90vh;
