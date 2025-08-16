@@ -762,12 +762,9 @@ footer {
         font-size: 2rem;
         color: var(--text-primary);
     }
-    .nav-links .theme-toggle-li {
-        position: absolute;
-        bottom: 5rem;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+/* ADD THIS NEW RULE */
+.nav-links .theme-toggle-li {
+}
     .hero {
         padding: 80px 1rem 0;
         min-height: 90vh;
