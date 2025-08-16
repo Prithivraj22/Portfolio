@@ -762,7 +762,7 @@ footer {
         font-size: 2rem;
         color: var(--text-primary);
     }
-    .theme-toggle {
+    .nav-links .theme-toggle-li {
         position: absolute;
         bottom: 5rem;
         left: 50%;

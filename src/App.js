@@ -195,7 +195,7 @@ const App = () => {
             <li><a href="#projects" onClick={(e) => handleSmoothScroll(e, '#projects')}>Projects</a></li>
             <li><a href="#experience" onClick={(e) => handleSmoothScroll(e, '#experience')}>Experience</a></li>
             <li><a href="#contact" onClick={(e) => handleSmoothScroll(e, '#contact')}>Contact</a></li>
-            <li>
+            <li className="theme-toggle-li">
               <div className="theme-toggle" onClick={toggleTheme}>
                 <i className="fas fa-moon"></i><i className="fas fa-sun"></i>
               </div>
