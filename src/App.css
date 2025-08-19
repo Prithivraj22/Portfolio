@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary: #0066FF;
+    --primary: hsl(216, 100%, 50%);
     --primary-dark: #0052CC;
     --secondary: #7C3AED;
     --accent: #F59E0B;
@@ -117,7 +117,7 @@ body.no-custom-cursor {
     position: fixed;
     width: 8px;
     height: 8px;
-    background-color: var(--primary);
+    background-color:  hsl(216, 100%, 50%);
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
@@ -128,9 +128,9 @@ body.no-custom-cursor {
 
 .cursor-follower {
     position: fixed;
-    width: 30px;
-    height: 30px;
-    border: 3px solid var(--primary);
+    width: 44px;
+    height: 44px;
+    background-color: hsl(216, 100%, 50%,0.3); 
     border-radius: 50%;
     pointer-events: none;
     z-index: 9998;
@@ -140,9 +140,9 @@ body.no-custom-cursor {
 }
 
 .cursor.grow {
-    width: 30px;
-    height: 30px;
-    background-color: rgba(0, 102, 255, 0.3);
+    width: 44px;
+    height: 44px;
+    background-color: hsl(216, 100%, 50%,0.3);
 }
 
 .cursor-follower.hidden-follower {

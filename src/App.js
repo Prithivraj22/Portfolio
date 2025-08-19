@@ -47,8 +47,8 @@ const App = () => {
       let followerY = followerPos.y;
 
       const animateFollower = () => {
-        followerX += (mousePos.x - followerX) * 0.1;
-        followerY += (mousePos.y - followerY) * 0.1;
+        followerX += (mousePos.x - followerX) * 0.2;
+        followerY += (mousePos.y - followerY) * 0.2;
         
         setFollowerPos({ x: followerX, y: followerY });
         animationRef.current = requestAnimationFrame(animateFollower);
@@ -175,11 +175,11 @@ const App = () => {
     <>
       <div 
         className={`cursor ${isHovering ? 'grow' : ''}`}
-        style={{ transform: `translate(${mousePos.x}px, ${mousePos.y}px)` }}
+        style={{ transform: `translate(${mousePos.x}px, ${mousePos.y}px) translate(-50%, -50%)` }}
       />
       <div 
         className={`cursor-follower ${isHovering ? 'hidden-follower' : ''}`}
-        style={{ transform: `translate(${followerPos.x}px, ${followerPos.y}px)` }}
+        style={{ transform: `translate(${followerPos.x}px, ${followerPos.y}px) translate(-50%, -50%)` }}
       />
       <div className="bg-grid" />
       <div className="bg-gradient-orb" />
