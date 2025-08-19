@@ -271,7 +271,7 @@ const App = () => {
             <div className="skill-category animate-on-scroll" onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
               <h3>Languages & Core</h3>
               <div className="skill-tags">
-                {['JavaScript', 'Python', 'Java', 'C++', 'C', 'SQL'].map(skill => <span key={skill} className="skill-tag" onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>{skill}</span>)}
+                {['JavaScript', 'Python', 'Java', 'C++', 'C'].map(skill => <span key={skill} className="skill-tag" onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>{skill}</span>)}
               </div>
             </div>
             <div className="skill-category animate-on-scroll" onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
